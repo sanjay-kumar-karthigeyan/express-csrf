@@ -1,0 +1,20 @@
+{
+  "name": "security-mw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "csurf": "^1.11.0",
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "nodemon": "^2.0.7"
+  }
+}
